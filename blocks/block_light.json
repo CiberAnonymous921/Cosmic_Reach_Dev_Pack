@@ -1,0 +1,277 @@
+{
+    "stringId": "base:light",
+    "defaultParams":
+    {
+        "power": "on",
+        "lightRed": "15",
+        "lightGreen": "15",
+        "lightBlue": "15"
+    },
+    "blockStates":
+    {
+        "power=off,lightRed=15,lightGreen=15,lightBlue=15":
+        {
+            "modelName": "model_light_off",
+            "lightLevelRed": 0,
+            "lightLevelGreen": 0,
+            "lightLevelBlue": 0,
+            "blockEventsId": "base:block_events_light_off",
+            "stateGenerators": ["base:slabs_all"]
+        },
+        "power=on,lightRed=15,lightGreen=15,lightBlue=15": 
+        {
+            "modelName": "model_light_white",
+            "lightLevelRed": 15,
+            "lightLevelGreen": 15,
+            "lightLevelBlue": 15,
+            "blockEventsId": "base:block_events_light_on",
+            "stateGenerators": ["base:slabs_all"]
+        },
+
+
+        "power=off,lightRed=15,lightGreen=0,lightBlue=0":
+        {
+            "modelName": "model_light_off",
+            "lightLevelRed": 0,
+            "lightLevelGreen": 0,
+            "lightLevelBlue": 0,
+            "blockEventsId": "base:block_events_light_off",
+            "catalogHidden": true,
+            "stateGenerators": ["base:slabs_all"]
+        },
+        "power=on,lightRed=15,lightGreen=0,lightBlue=0": 
+        {
+            "modelName": "model_light_red",
+            "lightLevelRed": 15,
+            "blockEventsId": "base:block_events_light_on",
+            "stateGenerators": ["base:slabs_all"]
+        },
+
+
+        "power=off,lightRed=13,lightGreen=7,lightBlue=0":
+        {
+            "modelName": "model_light_off",
+            "lightLevelRed": 0,
+            "lightLevelGreen": 0,
+            "lightLevelBlue": 0,
+            "blockEventsId": "base:block_events_light_off",
+            "catalogHidden": true,
+            "stateGenerators": ["base:slabs_all"]
+        },
+        "power=on,lightRed=13,lightGreen=7,lightBlue=0": 
+        {
+            "modelName": "model_light_orange",
+            "lightLevelRed": 13,
+            "lightLevelGreen": 7,
+            "lightLevelBlue": 0,
+            "blockEventsId": "base:block_events_light_on",
+            "stateGenerators": ["base:slabs_all"]
+        },
+
+
+        "power=off,lightRed=13,lightGreen=13,lightBlue=0":
+        {
+            "modelName": "model_light_off",
+            "lightLevelRed": 0,
+            "lightLevelGreen": 0,
+            "lightLevelBlue": 0,
+            "blockEventsId": "base:block_events_light_off",
+            "catalogHidden": true,
+            "stateGenerators": ["base:slabs_all"]
+        },
+        "power=on,lightRed=13,lightGreen=13,lightBlue=0": 
+        {
+            "modelName": "model_light_yellow",
+            "lightLevelRed": 13,
+            "lightLevelGreen": 13,
+            "lightLevelBlue": 0,
+            "blockEventsId": "base:block_events_light_on",
+            "stateGenerators": ["base:slabs_all"]
+        },
+
+
+        "power=off,lightRed=7,lightGreen=13,lightBlue=0":
+        {
+            "modelName": "model_light_off",
+            "lightLevelRed": 0,
+            "lightLevelGreen": 0,
+            "lightLevelBlue": 0,
+            "blockEventsId": "base:block_events_light_off",
+            "catalogHidden": true,
+            "stateGenerators": ["base:slabs_all"]
+        },
+        "power=on,lightRed=7,lightGreen=13,lightBlue=0": 
+        {
+            "modelName": "model_light_lime",
+            "lightLevelRed": 7,
+            "lightLevelGreen": 13,
+            "lightLevelBlue": 0,
+            "blockEventsId": "base:block_events_light_on",
+            "stateGenerators": ["base:slabs_all"]
+        },
+
+
+        "power=off,lightRed=0,lightGreen=15,lightBlue=0":
+        {
+            "modelName": "model_light_off",
+            "lightLevelRed": 0,
+            "lightLevelGreen": 0,
+            "lightLevelBlue": 0,
+            "blockEventsId": "base:block_events_light_off",
+            "catalogHidden": true,
+            "stateGenerators": ["base:slabs_all"]
+        },
+        "power=on,lightRed=0,lightGreen=15,lightBlue=0": 
+        {
+            "modelName": "model_light_green",
+            "lightLevelGreen": 15,
+            "blockEventsId": "base:block_events_light_on",
+            "stateGenerators": ["base:slabs_all"]
+        },
+
+
+        "power=off,lightRed=0,lightGreen=13,lightBlue=7":
+        {
+            "modelName": "model_light_off",
+            "lightLevelRed": 0,
+            "lightLevelGreen": 0,
+            "lightLevelBlue": 0,
+            "blockEventsId": "base:block_events_light_off",
+            "catalogHidden": true,
+            "stateGenerators": ["base:slabs_all"]
+        },
+        "power=on,lightRed=0,lightGreen=13,lightBlue=7": 
+        {
+            "modelName": "model_light_spring_green",
+            "lightLevelRed": 0,
+            "lightLevelGreen": 13,
+            "lightLevelBlue": 7,
+            "blockEventsId": "base:block_events_light_on",
+            "stateGenerators": ["base:slabs_all"]
+        },
+
+
+        "power=off,lightRed=0,lightGreen=13,lightBlue=13":
+        {
+            "modelName": "model_light_off",
+            "lightLevelRed": 0,
+            "lightLevelGreen": 0,
+            "lightLevelBlue": 0,
+            "blockEventsId": "base:block_events_light_off",
+            "catalogHidden": true,
+            "stateGenerators": ["base:slabs_all"]
+        },
+        "power=on,lightRed=0,lightGreen=13,lightBlue=13": 
+        {
+            "modelName": "model_light_cyan",
+            "lightLevelRed": 0,
+            "lightLevelGreen": 13,
+            "lightLevelBlue": 13,
+            "blockEventsId": "base:block_events_light_on",
+            "stateGenerators": ["base:slabs_all"]
+        },
+
+
+        "power=off,lightRed=0,lightGreen=7,lightBlue=13":
+        {
+            "modelName": "model_light_off",
+            "lightLevelRed": 0,
+            "lightLevelGreen": 0,
+            "lightLevelBlue": 0,
+            "blockEventsId": "base:block_events_light_off",
+            "catalogHidden": true,
+            "stateGenerators": ["base:slabs_all"]
+        },
+        "power=on,lightRed=0,lightGreen=7,lightBlue=13": 
+        {
+            "modelName": "model_light_azure",
+            "lightLevelRed": 0,
+            "lightLevelGreen": 7,
+            "lightLevelBlue": 13,
+            "blockEventsId": "base:block_events_light_on",
+            "stateGenerators": ["base:slabs_all"]
+        },
+
+
+        "power=off,lightRed=0,lightGreen=0,lightBlue=15":
+        {
+            "modelName": "model_light_off",
+            "lightLevelRed": 0,
+            "lightLevelGreen": 0,
+            "lightLevelBlue": 0,
+            "blockEventsId": "base:block_events_light_off",
+            "catalogHidden": true,
+            "stateGenerators": ["base:slabs_all"]
+        },
+        "power=on,lightRed=0,lightGreen=0,lightBlue=15": 
+        {
+            "modelName": "model_light_blue",
+            "lightLevelBlue": 15,
+            "blockEventsId": "base:block_events_light_on",
+            "stateGenerators": ["base:slabs_all"]
+        },
+
+
+        "power=off,lightRed=7,lightGreen=0,lightBlue=13":
+        {
+            "modelName": "model_light_off",
+            "lightLevelRed": 0,
+            "lightLevelGreen": 0,
+            "lightLevelBlue": 0,
+            "blockEventsId": "base:block_events_light_off",
+            "catalogHidden": true,
+            "stateGenerators": ["base:slabs_all"]
+        },
+        "power=on,lightRed=7,lightGreen=0,lightBlue=13": 
+        {
+            "modelName": "model_light_violet",
+            "lightLevelRed": 7,
+            "lightLevelGreen": 0,
+            "lightLevelBlue": 13,
+            "blockEventsId": "base:block_events_light_on",
+            "stateGenerators": ["base:slabs_all"]
+        },
+
+
+        "power=off,lightRed=13,lightGreen=0,lightBlue=13":
+        {
+            "modelName": "model_light_off",
+            "lightLevelRed": 0,
+            "lightLevelGreen": 0,
+            "lightLevelBlue": 0,
+            "blockEventsId": "base:block_events_light_off",
+            "catalogHidden": true,
+            "stateGenerators": ["base:slabs_all"]
+        },
+        "power=on,lightRed=13,lightGreen=0,lightBlue=13": 
+        {
+            "modelName": "model_light_magenta",
+            "lightLevelRed": 13,
+            "lightLevelGreen": 0,
+            "lightLevelBlue": 13,
+            "blockEventsId": "base:block_events_light_on",
+            "stateGenerators": ["base:slabs_all"]
+        },
+
+
+        "power=off,lightRed=13,lightGreen=0,lightBlue=7":
+        {
+            "modelName": "model_light_off",
+            "lightLevelRed": 0,
+            "lightLevelGreen": 0,
+            "lightLevelBlue": 0,
+            "blockEventsId": "base:block_events_light_off",
+            "catalogHidden": true,
+            "stateGenerators": ["base:slabs_all"]
+        },
+        "power=on,lightRed=13,lightGreen=0,lightBlue=7": 
+        {
+            "modelName": "model_light_rose",
+            "lightLevelRed": 13,
+            "lightLevelGreen": 0,
+            "lightLevelBlue": 7,
+            "blockEventsId": "base:block_events_light_on",
+            "stateGenerators": ["base:slabs_all"]
+        }
+    }
+}

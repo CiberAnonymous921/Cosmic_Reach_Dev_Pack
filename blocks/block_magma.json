@@ -1,0 +1,14 @@
+{
+    "stringId": "base:magma",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "model_magma",
+            "lightLevelRed": 15,
+            "lightLevelGreen": 4,
+            "lightLevelBlue": 1,
+            "stateGenerators": ["base:slabs_all", "base:stairs_seamless_all"]
+        }
+    }
+}

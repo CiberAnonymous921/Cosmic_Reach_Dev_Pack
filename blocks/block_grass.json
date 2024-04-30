@@ -1,0 +1,15 @@
+{
+    "stringId": "base:grass",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "model_grass"
+        },
+        "type=full": 
+        {
+            "modelName": "model_grass_full",
+            "stateGenerators": ["base:slabs_all", "base:stairs_seamless_all"]
+        }
+    }
+}

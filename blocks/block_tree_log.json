@@ -1,0 +1,16 @@
+{
+    "stringId": "base:tree_log",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "model_tree_log",
+            "stateGenerators": ["base:slabs_all"]
+        },
+        "type=bark": 
+        {
+            "modelName": "model_tree_log_bark",
+            "stateGenerators": ["base:slabs_all", "base:stairs_seamless_all"]
+        }
+    }
+}

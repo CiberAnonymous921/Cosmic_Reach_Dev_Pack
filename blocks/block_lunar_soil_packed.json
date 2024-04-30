@@ -1,0 +1,11 @@
+{
+    "stringId": "base:lunar_soil_packed",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "model_lunar_soil_packed",
+            "stateGenerators": ["base:slabs_all", "base:stairs_seamed_all"]
+        }
+    }
+}

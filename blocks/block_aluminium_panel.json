@@ -1,0 +1,11 @@
+{
+    "stringId": "base:aluminium_panel",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "model_aluminium_panel",
+            "stateGenerators": ["base:slabs_all", "base:stairs_seamed_all"]
+        }
+    }
+}

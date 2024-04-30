@@ -1,0 +1,67 @@
+{
+    "generators":
+    [
+        {
+            "stringId": "base:stairs_seamless_all",
+            "include": ["base:stairs_seamless_bottom"]
+        },
+        {
+            "stringId": "base:stairs_seamless_bottom",
+            "include": ["base:stairs_seamless_bottom_NegX", "base:stairs_seamless_bottom_NegZ", "base:stairs_seamless_bottom_PosX", "base:stairs_seamless_bottom_PosZ"]
+        },
+        {
+            "stringId": "base:stairs_seamless_bottom_NegX",
+            "modelName": "stairs_seamless_bottom",
+            "params":
+            {
+                "stair_type":"bottom_NegX"
+            },
+            "overrides":
+            {
+                "isOpaque": false
+            }
+        },
+        {
+            "stringId": "base:stairs_seamless_bottom_NegZ",
+            "modelName": "stairs_seamless_bottom",
+            "params":
+            {
+                "stair_type":"bottom_NegZ"
+            },
+            "overrides":
+            {
+                "catalogHidden": true,
+                "rotXZ": 90,
+                "isOpaque": false
+            }
+        },
+        {
+            "stringId": "base:stairs_seamless_bottom_PosX",
+            "modelName": "stairs_seamless_bottom",
+            "params":
+            {
+                "stair_type":"bottom_PosX"
+            },
+            "overrides":
+            {
+                "catalogHidden": true,
+                "rotXZ": 180,
+                "isOpaque": false
+            }
+        },
+        {
+            "stringId": "base:stairs_seamless_bottom_PosZ",
+            "modelName": "stairs_seamless_bottom",
+            "params":
+            {
+                "stair_type":"bottom_PosZ"
+            },
+            "overrides":
+            {
+                "catalogHidden": true,
+                "rotXZ": 270,
+                "isOpaque": false
+            }
+        }
+    ]
+}

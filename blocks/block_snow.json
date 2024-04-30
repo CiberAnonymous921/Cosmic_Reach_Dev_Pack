@@ -1,0 +1,11 @@
+{
+    "stringId": "base:snow",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "model_snow",
+            "stateGenerators": ["base:slabs_all", "base:stairs_seamless_all"]
+        }
+    }
+}

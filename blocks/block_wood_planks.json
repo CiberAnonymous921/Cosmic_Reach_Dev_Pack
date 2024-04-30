@@ -1,0 +1,11 @@
+{
+    "stringId": "base:wood_planks",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "model_wood_planks",
+            "stateGenerators": ["base:slabs_all", "base:stairs_seamless_all"]
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "stringId": "base:hazard",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "model_hazard",
+            "stateGenerators": ["base:slabs_all", "base:stairs_seamless_all"]
+        }
+    }
+}

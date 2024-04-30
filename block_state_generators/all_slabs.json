@@ -1,0 +1,100 @@
+{
+    "generators":
+    [
+        {
+            "stringId": "base:slabs_all",
+            "include": ["base:slabs_all_horiz", "base:slabs_all_vert"]
+        },
+        {
+            "stringId": "base:slabs_all_horiz",
+            "include": ["base:slab_bottom", "base:slab_top"]
+        },
+        {
+            "stringId": "base:slabs_all_vert",
+            "include": 
+            [
+                "base:slab_verticalNegX", "base:slab_verticalNegZ", 
+                "base:slab_verticalPosX", "base:slab_verticalPosZ"
+            ]
+        },
+        {
+            "stringId": "base:slab_bottom",
+            "modelName": "slab_bottom",
+            "params":
+            {
+                "slab_type":"bottom"
+            },
+            "overrides":
+            {
+                "isOpaque": false
+            }
+        },
+        {
+            "stringId": "base:slab_top",
+            "modelName": "slab_top",
+            "params":
+            {
+                "slab_type":"top"
+            },
+            "overrides":
+            {
+                "isOpaque": false,
+                "catalogHidden": true
+            }
+        },
+        {
+            "stringId": "base:slab_verticalNegX",
+            "modelName": "slab_vertical",
+            "params":
+            {
+                "slab_type":"verticalNegX"
+            },
+            "overrides":
+            {
+                "isOpaque": false
+            }
+        },
+        {
+            "stringId": "base:slab_verticalNegZ",
+            "modelName": "slab_vertical",
+            "params":
+            {
+                "slab_type":"verticalNegZ"
+            },
+            "overrides":
+            {
+                "isOpaque": false,
+                "catalogHidden": true,
+                "rotXZ": 90
+            }
+        },
+        {
+            "stringId": "base:slab_verticalPosX",
+            "modelName": "slab_vertical",
+            "params":
+            {
+                "slab_type":"verticalPosX"
+            },
+            "overrides":
+            {
+                "isOpaque": false,
+                "catalogHidden": true,
+                "rotXZ": 180
+            }
+        },
+        {
+            "stringId": "base:slab_verticalPosZ",
+            "modelName": "slab_vertical",
+            "params":
+            {
+                "slab_type":"verticalPosZ"
+            },
+            "overrides":
+            {
+                "isOpaque": false,
+                "catalogHidden": true,
+                "rotXZ": 270
+            }
+        }
+    ]
+}

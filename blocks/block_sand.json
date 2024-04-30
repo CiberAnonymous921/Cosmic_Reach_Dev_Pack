@@ -1,0 +1,11 @@
+{
+    "stringId": "base:sand",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "model_sand",
+            "stateGenerators": ["base:slabs_all", "base:stairs_seamless_all"]
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "stringId": "base:air",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "empty",
+            "isOpaque": false,
+            "lightAttenuation": 0,
+            "canRaycastForBreak": false,
+            "canRaycastForPlaceOn": false,
+            "canRaycastForReplace": true,
+            "walkThrough": true
+        }
+    }
+}

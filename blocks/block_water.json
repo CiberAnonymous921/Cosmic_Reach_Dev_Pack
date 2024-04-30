@@ -1,0 +1,19 @@
+{
+    "stringId": "base:water",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "model_water",
+            "isOpaque": false,
+            "isTransparent": true,
+            "cullsSelf": true,
+            "lightAttenuation": 1,
+            "canRaycastForBreak": false,
+            "canRaycastForPlaceOn": false,
+            "canRaycastForReplace": true,
+            "walkThrough": true,
+            "isFluid": true
+        }
+    }
+}

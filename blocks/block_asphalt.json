@@ -1,0 +1,11 @@
+{
+    "stringId": "base:asphalt",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "model_asphalt",
+            "stateGenerators": ["base:slabs_all", "base:stairs_seamless_all"]
+        }
+    }
+}

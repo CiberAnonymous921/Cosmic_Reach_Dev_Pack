@@ -1,0 +1,11 @@
+{
+    "stringId": "base:c4",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "model_c4",
+            "blockEventsId": "base:block_events_c4"
+        }
+    }
+}

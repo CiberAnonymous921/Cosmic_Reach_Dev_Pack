@@ -1,0 +1,11 @@
+{
+    "stringId": "base:boombox",
+    "blockStates":
+    {
+        "pitch=A4": 
+        {
+            "modelName": "model_boombox",
+            "blockEventsId": "base:block_events_boombox"
+        }
+    }
+}

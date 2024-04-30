@@ -1,0 +1,11 @@
+{
+    "stringId": "base:cheese",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "model_cheese",
+            "stateGenerators": ["base:slabs_all", "base:stairs_seamless_all"]
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "stringId": "base:debug",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "model_debug",
+            "catalogHidden": true,
+            "stateGenerators": ["base:slabs_all", "base:stairs_seamless_all"]
+        }
+    }
+}
