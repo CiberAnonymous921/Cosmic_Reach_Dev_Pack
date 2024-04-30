@@ -1,0 +1,16 @@
+{
+    "parent": "model_light_base",
+
+    "textures":
+    {
+        "all":
+        {
+            "fileName": "light_red.png"
+        },
+        "slab_side":
+        {
+            "fileName": "light_red_slab.png"
+        }
+    }
+    
+}

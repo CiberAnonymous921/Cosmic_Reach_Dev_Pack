@@ -1,0 +1,20 @@
+{
+    "parent": "cube",
+
+    "textures":
+    {
+        "top":
+        {
+            "fileName": "tree_log_top.png"
+        },
+        "bottom":
+        {
+            "fileName": "tree_log_top.png"
+        },
+        "side":
+        {
+            "fileName": "tree_log_side.png"
+        }
+    }
+    
+}

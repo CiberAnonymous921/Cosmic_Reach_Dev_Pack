@@ -1,0 +1,20 @@
+{
+    "parent": "cube",
+
+    "textures":
+    {
+        "all":
+        {
+            "fileName": "metal_panel_aluminium.png"
+        },
+        "slab_side":
+        {
+            "fileName": "metal_panel_aluminium_slab.png"
+        },
+        "stair_side":
+        {
+            "fileName": "metal_panel_aluminium_stairs.png"
+        }
+    }
+    
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "model_light_base",
+
+    "textures":
+    {
+        "all":
+        {
+            "fileName": "light_azure.png"
+        },
+        "slab_side":
+        {
+            "fileName": "light_azure_slab.png"
+        }
+    }
+    
+}

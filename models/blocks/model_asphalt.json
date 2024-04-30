@@ -1,0 +1,12 @@
+{
+    "parent": "cube",
+
+    "textures":
+    {
+        "all":
+        {
+            "fileName": "asphalt.png"
+        }
+    }
+    
+}

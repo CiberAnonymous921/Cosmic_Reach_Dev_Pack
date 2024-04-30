@@ -1,0 +1,20 @@
+{
+    "parent": "cube",
+
+    "textures":
+    {
+        "top":
+        {
+            "fileName": "c4_side.png"
+        },
+        "bottom":
+        {
+            "fileName": "c4_side.png"
+        },
+        "side":
+        {
+            "fileName": "c4_side.png"
+        }
+    }
+    
+}

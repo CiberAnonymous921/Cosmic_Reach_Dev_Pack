@@ -1,0 +1,28 @@
+{
+    "cuboids":
+    [
+        {
+            "localBounds": [-0.1,-0.1,-0.1, 16.1,16.1,16.1],
+            "faces":
+            {
+                "localNegX": {"uv": [ 0, 0, 256, 256 ], "texture": "all"},
+                "localPosX": {"uv": [ 0, 0, 256, 256 ], "texture": "all"},
+
+                "localNegY": {"uv": [ 0, 0, 256, 256 ], "texture": "all"},
+                "localPosY": {"uv": [ 0, 0, 256, 256 ], "texture": "all"},
+
+                "localNegZ": {"uv": [ 0, 0, 256, 256 ], "texture": "all"},
+                "localPosZ": {"uv": [ 0, 0, 256, 256 ], "texture": "all"}
+            }
+        }
+    ],
+
+    "textures":
+    {
+        "all":
+        {
+            "uv": [0, 0]
+        }
+    }
+    
+}

@@ -1,0 +1,20 @@
+{
+    "parent": "cube",
+
+    "textures":
+    {
+        "all":
+        {
+            "fileName": "lunar_soil_packed.png"
+        },
+        "slab_side":
+        {
+            "fileName": "lunar_soil_packed_slab.png"
+        },
+        "stair_side":
+        {
+            "fileName": "lunar_soil_packed_stairs.png"
+        }
+    }
+    
+}

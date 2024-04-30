@@ -1,0 +1,20 @@
+{
+    "parent": "cube",
+
+    "textures":
+    {
+        "top":
+        {
+            "fileName": "grass_top.png"
+        },
+        "bottom":
+        {
+            "fileName": "dirt.png"
+        },
+        "side":
+        {
+            "fileName": "grass_side.png"
+        }
+    }
+    
+}
