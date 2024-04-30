@@ -1,0 +1,23 @@
+{
+    "parent":"base:block_events_default",
+    "stringId": "base:block_events_light_on",
+    "triggers":
+    {
+        "onInteract":
+        [
+            {
+                "actionId": "base:set_block_state_params",
+                "parameters":
+                {
+                    "xOff": 0,
+                    "yOff": 0,
+                    "zOff": 0,
+                    "params":
+                    {
+                        "power":"off"
+                    }
+                }
+            }
+        ]
+    }
+}

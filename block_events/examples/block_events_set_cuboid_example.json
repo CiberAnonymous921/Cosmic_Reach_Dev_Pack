@@ -1,0 +1,21 @@
+{
+    "parent":"base:block_events_default",
+    "stringId": "example:unused",
+    "triggers":
+    {
+        "onInteract":
+        [
+            {
+                "actionId": "base:set_cuboid",
+                "parameters": 
+                {
+                    "x1Off": -1, "y1Off": -1, "z1Off": -1,
+                    "x2Off": 1, "y2Off": 1, "z2Off": 1,
+                    "blockStateId": "base:cheese[default]",
+                    "triggerBeforeSetId": "relayExampleBefore (If you set this, it will fire before blocks are set)",
+                    "triggerAfterSetId": "relayExampleAfter (If you set this, it will fire after blocks are set)"
+                }
+            }
+        ]
+    }
+}

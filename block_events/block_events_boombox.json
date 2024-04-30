@@ -1,0 +1,20 @@
+{
+    "parent":"base:block_events_default",
+    "stringId": "base:block_events_boombox",
+    "triggers":
+    {
+        "onInteract":
+        [
+            {
+                "actionId": "base:play_sound_2d",
+                "parameters":
+                {
+                    "sound": "e-piano_A.ogg",
+                    "volume": 1,
+                    "pitch": 1,
+                    "pan": 0
+                }
+            }
+        ]
+    }
+}

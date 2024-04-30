@@ -1,0 +1,22 @@
+{
+    "parent":"base:block_events_default",
+    "stringId": "example:unused",
+    "triggers":
+    {
+        "onInteract":
+        [
+            {
+                "actionId": "base:set_spherical_segment",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "radius": 5, "angleDeg": 90,
+                    "xNormal": 0, "yNormal": 1, "zNormal": 0,
+                    "blockStateId": "base:cheese[default]",
+                    "triggerBeforeSetId": "relayExampleBefore (If you set this, it will fire before blocks are set)",
+                    "triggerAfterSetId": "relayExampleAfter (If you set this, it will fire after blocks are set)"
+                }
+            }
+        ]
+    }
+}
