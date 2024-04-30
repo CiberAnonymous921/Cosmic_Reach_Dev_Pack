@@ -1,0 +1,8 @@
+[[actions]]
+name = "play"
+platform = "linux"
+path = "./bin/Cosmic Reach"
+
+[[actions]]
+name = "View License"
+path = "COSMIC_REACH_LICENSE.txt"

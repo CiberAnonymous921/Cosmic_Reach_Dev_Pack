@@ -1,0 +1,8 @@
+[[actions]]
+name = "play"
+platform = "windows"
+path = "./Cosmic Reach.exe"
+
+[[actions]]
+name = "View License"
+path = "COSMIC_REACH_LICENSE.txt"

@@ -1,0 +1,7 @@
+[[actions]]
+name = "play"
+path = "./Cosmic Reach.jar"
+
+[[actions]]
+name = "View License"
+path = "COSMIC_REACH_LICENSE.txt"
